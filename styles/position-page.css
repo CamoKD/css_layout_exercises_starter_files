@@ -1,1 +1,68 @@
+main {
+    margin: 2px;
 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.img-circle {
+    border-width: 4px;
+    border-color: solid black;
+    border-radius: 50%;
+	height: 40px;
+	width: 40px
+
+}
+
+li.relative {
+	position: relative;
+	left: 30px;
+}
+
+nav {
+  padding-top: 2px;
+  padding-right: 720px;
+  border: 1px solid black;
+  text-align: left;
+  position: relative;
+  height: 50px;
+  background-color: ;
+}
+
+.logo {
+  position: absolute;
+  left: 10px;
+}
+
+#bg {
+  position: relative; 
+  top: 0; 
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.img-cat {
+    position: relative; 
+    left: 30px;
+    bottom: 700px;
+}
+
+.img-dog {
+    position: relative; 
+    left: 350px;
+    bottom: 300px;
+}
+
+.box {
+  border: 10px green dotted;
+  width: 600px;
+  height: 425px;
+  position: relative;
+  left: 150px;
+  bottom: 800px;
+}
